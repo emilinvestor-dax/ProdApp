@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "functions": {
+    "src/main.jsx": {
+      "includeFiles": "src/**"
+    }
+  }
+}
